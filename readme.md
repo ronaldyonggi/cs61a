@@ -13,5 +13,5 @@ All course materials are based on the [Fall 2018](https://cs61a.org/) course.
 
 |  Week  |  Date  | Lecture | Textbook | Handout | Homework & Project|
 |  ---  |  ---  | ----- | ---- | ---- | ---- | 
-|   1   | Wed 8/22|Functions|1.1, 1.2|Lab 00: Getting Started| |
-| |Fri 8/24 | Names|1.3, 1.4|Disc 00: Getting Started | HW 01|
+|   1   | Wed 8/22 |Functions :heavy_check_mark:|1.1, 1.2 :heavy_check_mark:|Lab 00: Getting Started :heavy_check_mark:| |
+|1 |Fri 8/24 | Names|1.3, 1.4|Disc 00: Getting Started | HW 01|
