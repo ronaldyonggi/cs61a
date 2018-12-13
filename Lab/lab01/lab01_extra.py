@@ -40,6 +40,11 @@ def double_eights(n):
     False
     """
     "*** YOUR CODE HERE ***"
+    while n > 0:
+        if n % 10 == 8 and n // 10 % 10 == 8:
+            return True
+        n = n // 10
+    return False
 
 # Guessing Game
 
@@ -64,6 +69,10 @@ def guess_linear():
     num_guesses = 1
     guess = LOWER
     "*** YOUR CODE HERE ***"
+    # while the guess is incorrect
+    while not is_correct(guess):
+        guess += 1 # increment the guess
+        num_guesses += 1 #increment the number of guesses
     return num_guesses
 
 def guess_binary():
@@ -79,6 +88,13 @@ def guess_binary():
     lower, upper = LOWER, UPPER
     guess = (lower + upper) // 2
     "*** YOUR CODE HERE ***"
+    while not is_correct(guess):
+            if is_too_high(guess):
+                upper = guess - 1 # change the upper bound to one number below the guess
+            else:
+                lower = guess + 1 # change the lower bound to one number above the guess
+            guess = (lower + upper) // 2 #update the guess
+            num_guesses += 1
     return num_guesses
 
 # Receive user input. You do not need to understand the code below this line.
