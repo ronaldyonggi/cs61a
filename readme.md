@@ -22,8 +22,8 @@ All course materials are based on the [Fall 2018](https://cs61a.org/) course.
 |   3   | Fri 9/7 | Function Examples :heavy_check_mark: |   |  Exam Prep 01: Environment Diagrams, Higher-Order Functions, Control  | HW 3 |
 |   4   | Mon 9/10 | Midterm 1 |   |  | |
 |   4   | Wed 9/12 | Tree Recursion :heavy_check_mark: | 1.7  |  Disc 03: Recursion, Tree Recursion  |  |
-|   4   | Fri 9/14 | Data Abstraction | 2.1, 2.2 |  Exam Prep 02: Recursion, Tree Recursion <br> Guerilla 02: Higher-Order Functions, Recursion, Tree Recursion | HW 4 |
-|   5   | Mon 9/17 | Containers | 2.3  | Lab 04: Python Lists, Data Abstraction | Maps :heavy_check_mark: |
+|   4   | Fri 9/14 | Data Abstraction :heavy_check_mark:| 2.1, 2.2 |  Exam Prep 02: Recursion, Tree Recursion <br> Guerilla 02: Higher-Order Functions, Recursion, Tree Recursion | HW 4 |
+|   5   | Mon 9/17 | Containers :heavy_check_mark: | 2.3  | Lab 04: Python Lists, Data Abstraction | Maps :heavy_check_mark: |
 |   5   | Wed 9/19 | Trees | 2.3  |  Disc 04: Python Lists, Trees  |  |
 |   5   | Fri 9/21 | Mutable Values | 2.4  | Exam Prep 03: Trees, Python Lists | HW 05 |
 |   6   | Mon 9/24 | Mutable Functions | 2.4  | Lab 05: Python Lists, Trees |  |
