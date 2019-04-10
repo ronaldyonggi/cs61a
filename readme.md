@@ -12,14 +12,14 @@ All course materials are based on the [Fall 2018](https://cs61a.org/) course.
 
 |  Week  |  Date  | Lecture | Textbook | Handout | Homework & Project|
 |  ---  |  ---  | ----- | ---- | ---- | ---- | 
-|   1   | Wed 8/22 |  Functions :heavy_check_mark:  |  1.1, 1.2 :heavy_check_mark:  |  Lab 00: Getting Started :heavy_check_mark: | |
+|   1   | Wed 8/22 |  Functions :heavy_check_mark:  |  1.1, 1.2 |  Lab 00: Getting Started :heavy_check_mark: | |
 |   1   | Fri 8/24 | Names :heavy_check_mark: |  1.3, 1.4  |  Disc 00: Getting Started :heavy_check_mark:  | HW 01 :heavy_check_mark: |
 |   2   | Mon 8/27 | Control :heavy_check_mark: |  1.5  |  Lab 01: Variables & Functions, Control :heavy_check_mark:  | Hog :heavy_check_mark: |
 |   2   | Wed 8/29 | Higher-Order Functions :heavy_check_mark: |  1.6  |  Disc 01: Environment Diagrams, Control :heavy_check_mark: |  |
-|   2   | Fri 8/31 | Environments :heavy_check_mark:|  1.6  |  Guerrilla 01: Variables & Functions, Control, Environment Diagrams :heavy_check_mark: | HW 02 |
+|   2   | Fri 8/31 | Environments :heavy_check_mark:|  1.6  |  Guerrilla 01: Variables & Functions, Control, Environment Diagrams :heavy_check_mark: | HW 02 :heavy_check_mark: |
 |   3   | Mon 9/3 | Iteration :heavy_check_mark: |   |  Lab 02: Higher-Order Functions  |  |
 |   3   | Wed 9/5 | Recursion :heavy_check_mark: |  1.7  |  Disc 02: Higher-Order Functions, Recursion  | Hog Contest |
-|   3   | Fri 9/7 | Function Examples :heavy_check_mark: |   |  Exam Prep 01: Environment Diagrams, Higher-Order Functions, Control  | HW 3 |
+|   3   | Fri 9/7 | Function Examples :heavy_check_mark: |   |  Exam Prep 01: Environment Diagrams, Higher-Order Functions, Control  | HW 3 :heavy_check_mark: |
 |   4   | Mon 9/10 | Midterm 1 |   |  | |
 |   4   | Wed 9/12 | Tree Recursion :heavy_check_mark: | 1.7  |  Disc 03: Recursion, Tree Recursion  |  |
 |   4   | Fri 9/14 | Data Abstraction :heavy_check_mark:| 2.1, 2.2 |  Exam Prep 02: Recursion, Tree Recursion <br> Guerilla 02: Higher-Order Functions, Recursion, Tree Recursion | HW 4 |
