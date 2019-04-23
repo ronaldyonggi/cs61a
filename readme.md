@@ -19,8 +19,8 @@ All course materials are based on the [Fall 2018](https://cs61a.org/) course.
 |   2   | Fri 8/31 | Environments :heavy_check_mark:|  1.6  |  Guerrilla 01: Variables & Functions, Control, Environment Diagrams :heavy_check_mark: | HW 02 :heavy_check_mark: |
 |   3   | Mon 9/3 | Iteration :heavy_check_mark: |   |  Lab 02: Higher-Order Functions :heavy_check_mark: |  |
 |   3   | Wed 9/5 | Recursion :heavy_check_mark: |  1.7  |  Disc 02: Higher-Order Functions, Recursion :heavy_check_mark:  | Hog Contest |
-|   3   | Fri 9/7 | Function Examples :heavy_check_mark: |   |  Exam Prep 01: Environment Diagrams, Higher-Order Functions, Control  | HW 3 :heavy_check_mark: |
-|   4   | Mon 9/10 | Midterm 1 |   |  | |
+|   3   | Fri 9/7 | Function Examples :heavy_check_mark: |   |  Exam Prep 01: Environment Diagrams, Higher-Order Functions, Control :heavy_check_mark:  | HW 3 :heavy_check_mark: |
+|   4   | Mon 9/10 | Midterm 1 :heavy_check_mark: |   |  | |
 |   4   | Wed 9/12 | Tree Recursion :heavy_check_mark: | 1.7  |  Disc 03: Recursion, Tree Recursion :heavy_check_mark:  |  |
 |   4   | Fri 9/14 | Data Abstraction :heavy_check_mark:| 2.1, 2.2 |  Exam Prep 02: Recursion, Tree Recursion <br> Guerilla 02: Higher-Order Functions, Recursion, Tree Recursion :heavy_check_mark: | HW 4 |
 |   5   | Mon 9/17 | Containers :heavy_check_mark: | 2.3  | Lab 04: Python Lists, Data Abstraction | Maps :heavy_check_mark: |
