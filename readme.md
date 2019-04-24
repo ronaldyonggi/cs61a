@@ -41,3 +41,19 @@ All course materials are based on the [Fall 2018](https://cs61a.org/) course.
 | 10 | Mon 10/22 | Scheme | 3.1, 3.2 | Lab 09: Scheme | |
 | 10 | Wed 10/24 | Exceptions | 3.3 | Disc 08: Scheme | |
 | 10 | Fri 10/26 | Calculator | 3.4 | Exam Prep 06: Scheme, Scheme Lists, Interpreters <br> Guerilla 05: Scheme | HW 08 |
+| 11 | Mon 10/29 | Interpreters | 3.5 | Lab 10: Interpreters | Scheme |
+| 11 | Wed 10/31 | Tail Calls | 3.5 | Disc 09: Interpreters, Tail Recursion | Scheme Challenge Version |
+| 11 | Fri 11/2 | Macros | 3.5 | | HW 09 |
+| 12 | Mon 11/5 | Streams |  | Lab 11: Macros | |
+| 12 | Wed 11/7 | Declarative Programming | 4.3 | Disc 10: Macros, Streams | Scheme Contest |
+| 12 | Fri 11/9 | Tables | 4.3 | Exam Prep 07: Tail Recursion <br> Exam Prep 08: Macros <br> Guerilla 06: Streams, Tail Recursion, Interpreters, Macros | HW 10 |
+| 13 | Mon 11/12 | No Lecture: Veterans Day | | Lab 12: SQL | |
+| 13 | Wed 11/14 | Aggregation | 4.3 | Disc 11: SQL | |
+| 13 | Fri 11/16 | No Lecture: Class Cancelled | | | HW 11 |
+| 14 | Mon 11/19 | Databases | 4.3 | | | 
+| 14 | Wed 11/21 | No Lecture: Thanksgiving | | Disc 12: Final Review | |
+| 14 | Fri 11/23 | No Lecture: Thanksgiving | | | |
+| 15 | Mon 11/26 | Natural Language | | Lab 13: Final Review | |
+| 15 | Wed 11/28 | Final Examples | | | |
+| 15 | Fri 11/30 | Conclusion | | | HW 12 |
+| 16 | Wed 12/12 | Final | | | |
