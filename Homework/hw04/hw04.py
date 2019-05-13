@@ -44,7 +44,6 @@ def squares(s):
     []
     """
     "*** YOUR CODE HERE ***"
-    # The trick is to 
     return [round(i ** 0.5) for i in s if round(i ** 0.5) ** 2 == i]
 
 def g(n):
@@ -106,6 +105,7 @@ def count_change(amount):
     """
     "*** YOUR CODE HERE ***"
 
+ 
 def print_move(origin, destination):
     """Print instructions to move a disk."""
     print("Move the top disk from rod", origin, "to rod", destination)
