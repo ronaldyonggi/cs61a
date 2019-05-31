@@ -6,6 +6,8 @@ This repository contains the progress of UC Berkeley CS61A course materials that
 
 All course materials are based on the [Fall 2018](https://cs61a.org/) course.
 
+Lecture notes are written in .ipynb files, which can be opened via Jupyter Notebook or Jupyter Lab. Some materials (e.g. environment diagrams) require installation of the [tutormagic](https://github.com/kikocorreoso/tutormagic) extension by kikocorreoso to be displayed correctly.
+
 | Symbol | Meaning |
 | --- | --- |
 |:heavy_check_mark:| Completed |
@@ -30,9 +32,9 @@ All course materials are based on the [Fall 2018](https://cs61a.org/) course.
 |   6   | Mon 9/24 | Mutable Functions :heavy_check_mark: | 2.4  | Lab 05: Python Lists, Trees |  |
 |   6   | Wed 9/26 | Iterators :heavy_check_mark: | 2.4  |  Disc 05: Nonlocal, Iterators & Generators  |  |
 |   6   | Fri 9/28 | Objects :pencil2: (Last video) | 2.5  | Exam Prep 04: Nonlocal, Iterators & Generators <br> Guerilla 03: Python Lists, Data Abstraction, Trees | |
-|   7   | Mon 10/1 | Inheritance | 2.5  | Lab 06: Object-Oriented Programming | Ants :heavy_check_mark: |
-|   7   | Wed 10/3 | Representation | 2.7  |  Disc 06: Object-Oriented Programming |  |
-|   7   | Fri 10/5 | Growth | 2.8  | | HW 06 |
+|   7   | Mon 10/1 | Inheritance :heavy_check_mark:| 2.5  | Lab 06: Object-Oriented Programming | Ants :heavy_check_mark: |
+|   7   | Wed 10/3 | Representation :pencil2: (First video) | 2.7  |  Disc 06: Object-Oriented Programming |  |
+|   7   | Fri 10/5 | Growth :heavy_check_mark: | 2.8  | | HW 06 |
 |   8   | Mon 10/8 | Composition | 2.9  | Lab 07: Linked Lists, Trees |  |
 |   8   | Wed 10/10 | Ordered Sets | 2.9  | Disc 07: Order of Growth, Linked Lists |  |
 |   8   | Fri 10/12 | Tree Sets | 2.9  |  Exam Prep 05: Object-Oriented Programming, Orders of Growth, Tree Recursion, Linked Lists <br> Guerilla 04: Nonlocal, Mutable Trees, Iterators & Generators, Linked Lists, Orders of Growth | | 
