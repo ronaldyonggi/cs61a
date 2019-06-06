@@ -8,10 +8,13 @@ All course materials are based on the [Fall 2018](https://cs61a.org/) course.
 
 Lecture notes are written in .ipynb files, which can be opened via Jupyter Notebook or Jupyter Lab. Some materials (e.g. environment diagrams) require installation of the [tutormagic](https://github.com/kikocorreoso/tutormagic) extension by kikocorreoso to be displayed correctly.
 
+Note that Jupyter Notebook runs Python kernel by default. Lecture notes that are marked :bookmark: uses [Calysto Scheme](https://github.com/Calysto/calysto_scheme) kernel. Install and use the Calysto Scheme kernel to be able to execute cells in those lecture notes correctly.
+
 | Symbol | Meaning |
 | --- | --- |
 |:heavy_check_mark:| Completed |
 |:pencil2:| Incomplete |
+|:bookmark: | Uses Calysto Scheme kernel|
 
 |  Week  |  Date  | Lecture | Textbook | Handout | Homework & Project|
 |  ---  |  ---  | ----- | ---- | ---- | ---- | 
@@ -35,13 +38,13 @@ Lecture notes are written in .ipynb files, which can be opened via Jupyter Noteb
 |   7   | Mon 10/1 | Inheritance :heavy_check_mark:| 2.5  | Lab 06: Object-Oriented Programming | Ants :heavy_check_mark: |
 |   7   | Wed 10/3 | Representation :pencil2: (First video) | 2.7  |  Disc 06: Object-Oriented Programming |  |
 |   7   | Fri 10/5 | Growth :heavy_check_mark: | 2.8  | | HW 06 |
-|   8   | Mon 10/8 | Composition | 2.9  | Lab 07: Linked Lists, Trees |  |
-|   8   | Wed 10/10 | Ordered Sets | 2.9  | Disc 07: Order of Growth, Linked Lists |  |
-|   8   | Fri 10/12 | Tree Sets | 2.9  |  Exam Prep 05: Object-Oriented Programming, Orders of Growth, Tree Recursion, Linked Lists <br> Guerilla 04: Nonlocal, Mutable Trees, Iterators & Generators, Linked Lists, Orders of Growth | | 
-|   9   | Mon 10/15 | Data Examples|  | Lab 08: Midterm Review |  |
+|   8   | Mon 10/8 | Composition :heavy_check_mark: | 2.9  | Lab 07: Linked Lists, Trees |  |
+|   8   | Wed 10/10 | Ordered Sets :pencil2: (First video) | 2.9  | Disc 07: Order of Growth, Linked Lists |  |
+|   8   | Fri 10/12 | Tree Sets :heavy_check_mark: | 2.9  |  Exam Prep 05: Object-Oriented Programming, Orders of Growth, Tree Recursion, Linked Lists <br> Guerilla 04: Nonlocal, Mutable Trees, Iterators & Generators, Linked Lists, Orders of Growth | | 
+|   9   | Mon 10/15 | Data Examples :pencil2: (Last Video)|  | Lab 08: Midterm Review |  |
 |   9   | Wed 10/17 | Midterm 2 | |   |  |
 |   9   | Fri 10/19 | Users | | | HW 07 |
-| 10 | Mon 10/22 | Scheme | 3.1, 3.2 | Lab 09: Scheme | |
+| 10 | Mon 10/22 | :bookmark: Scheme | 3.1, 3.2 | Lab 09: Scheme | |
 | 10 | Wed 10/24 | Exceptions | 3.3 | Disc 08: Scheme | |
 | 10 | Fri 10/26 | Calculator | 3.4 | Exam Prep 06: Scheme, Scheme Lists, Interpreters <br> Guerilla 05: Scheme | HW 08 |
 | 11 | Mon 10/29 | Interpreters | 3.5 | Lab 10: Interpreters | Scheme |
