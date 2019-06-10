@@ -44,7 +44,7 @@ Note that Jupyter Notebook runs Python kernel by default. Lecture notes that are
 |   9   | Mon 10/15 | Data Examples :pencil2: (Last Video)|  | Lab 08: Midterm Review |  |
 |   9   | Wed 10/17 | Midterm 2 | |   |  |
 |   9   | Fri 10/19 | Users | | | HW 07 |
-| 10 | Mon 10/22 | :bookmark: Scheme | 3.1, 3.2 | Lab 09: Scheme | |
+| 10 | Mon 10/22 | :bookmark: Scheme :heavy_check_mark: | 3.1, 3.2 | Lab 09: Scheme | |
 | 10 | Wed 10/24 | Exceptions | 3.3 | Disc 08: Scheme | |
 | 10 | Fri 10/26 | Calculator | 3.4 | Exam Prep 06: Scheme, Scheme Lists, Interpreters <br> Guerilla 05: Scheme | HW 08 |
 | 11 | Mon 10/29 | Interpreters | 3.5 | Lab 10: Interpreters | Scheme |
