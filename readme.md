@@ -28,7 +28,7 @@ Note that Jupyter Notebook runs Python kernel by default. Lecture notes that are
 |   3   | Fri 9/7 | Function Examples :heavy_check_mark: |   |  Exam Prep 01: Environment Diagrams, Higher-Order Functions, Control :heavy_check_mark:  | HW 3 :heavy_check_mark: |
 |   4   | Mon 9/10 | Midterm 1 :heavy_check_mark: |   |  | |
 |   4   | Wed 9/12 | Tree Recursion :heavy_check_mark: | 1.7  |  Disc 03: Recursion, Tree Recursion :heavy_check_mark:  |  |
-|   4   | Fri 9/14 | Data Abstraction :heavy_check_mark:| 2.1, 2.2 |  Exam Prep 02: Recursion, Tree Recursion <br> Guerilla 02: Higher-Order Functions, Recursion, Tree Recursion :heavy_check_mark: | HW 4 |
+|   4   | Fri 9/14 | Data Abstraction :heavy_check_mark:| 2.1, 2.2 |  Exam Prep 02: Recursion, Tree Recursion <br> Guerilla 02: Higher-Order Functions, Recursion, Tree Recursion :heavy_check_mark: | HW 4 :heavy_check_mark: |
 |   5   | Mon 9/17 | Containers :heavy_check_mark: | 2.3  | Lab 04: Python Lists, Data Abstraction :heavy_check_mark: | Maps :heavy_check_mark: |
 |   5   | Wed 9/19 | Trees :heavy_check_mark: | 2.3  |  Disc 04: Python Lists, Trees  |  |
 |   5   | Fri 9/21 | Mutable Values :heavy_check_mark: | 2.4  | Exam Prep 03: Trees, Python Lists | HW 05 |
@@ -45,8 +45,8 @@ Note that Jupyter Notebook runs Python kernel by default. Lecture notes that are
 |   9   | Wed 10/17 | Midterm 2 | |   |  |
 |   9   | Fri 10/19 | Users | | | HW 07 |
 | 10 | Mon 10/22 | :bookmark: Scheme :heavy_check_mark: | 3.1, 3.2 | Lab 09: Scheme | |
-| 10 | Wed 10/24 | Exceptions | 3.3 | Disc 08: Scheme | |
-| 10 | Fri 10/26 | Calculator | 3.4 | Exam Prep 06: Scheme, Scheme Lists, Interpreters <br> Guerilla 05: Scheme | HW 08 |
+| 10 | Wed 10/24 | Exceptions :heavy_check_mark: | 3.3 | Disc 08: Scheme | |
+| 10 | Fri 10/26 | Calculator :heavy_check_mark: | 3.4 | Exam Prep 06: Scheme, Scheme Lists, Interpreters <br> Guerilla 05: Scheme | HW 08 |
 | 11 | Mon 10/29 | Interpreters | 3.5 | Lab 10: Interpreters | Scheme |
 | 11 | Wed 10/31 | Tail Calls | 3.5 | Disc 09: Interpreters, Tail Recursion | Scheme Challenge Version |
 | 11 | Fri 11/2 | Macros | 3.5 | | HW 09 |

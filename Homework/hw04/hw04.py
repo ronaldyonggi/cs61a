@@ -160,6 +160,15 @@ def move_stack(n, start, end):
     """
     assert 1 <= start <= 3 and 1 <= end <= 3 and start != end, "Bad start/end"
     "*** YOUR CODE HERE ***"
+    # Base Case:
+    if n == 1:
+        print_move(start, end)
+    else:
+        unused = 6 - start - end
+        move_stack(n-1, start, unused)
+        print_move(start, end)
+        move_stack(n-1, unused, end)
+        
 
 ###################
 # Extra Questions #
