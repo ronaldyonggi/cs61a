@@ -33,7 +33,7 @@ Note that Jupyter Notebook runs Python kernel by default. Lecture notes that are
 |   5   | Wed 9/19 | Trees :heavy_check_mark: | 2.3  |  Disc 04: Python Lists, Trees :pencil2: (Skipped last problem)  |  |
 |   5   | Fri 9/21 | Mutable Values :heavy_check_mark: | 2.4  | Exam Prep 03: Trees, Python Lists | HW 05 |
 |   6   | Mon 9/24 | Mutable Functions :heavy_check_mark: | 2.4  | Lab 05: Python Lists, Trees :pencil2: (last problem) |  |
-|   6   | Wed 9/26 | Iterators :heavy_check_mark: | 2.4  |  Disc 05: Nonlocal, Iterators & Generators  |  |
+|   6   | Wed 9/26 | Iterators :heavy_check_mark: | 2.4  |  Disc 05: Nonlocal, Iterators & Generators :heavy_check_mark:  |  |
 |   6   | Fri 9/28 | Objects :pencil2: (Last video) | 2.5  | Exam Prep 04: Nonlocal, Iterators & Generators <br> Guerilla 03: Python Lists, Data Abstraction, Trees :pencil2: (last problem) | |
 |   7   | Mon 10/1 | Inheritance :heavy_check_mark:| 2.5  | Lab 06: Object-Oriented Programming | Ants :heavy_check_mark: |
 |   7   | Wed 10/3 | Representation :pencil2: (First video) | 2.7  |  Disc 06: Object-Oriented Programming |  |
