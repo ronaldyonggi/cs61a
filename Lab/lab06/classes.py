@@ -23,6 +23,9 @@ class Card(object):
         500
         """
         "*** YOUR CODE HERE ***"
+        self.name = name
+        self.attack = attack
+        self.defense = defense
 
     def power(self, other_card):
         """
@@ -42,6 +45,7 @@ class Card(object):
         50.0
         """
         "*** YOUR CODE HERE ***"
+        return self.attack - (other_card.defense / 2)
 
 
     def effect(self, other_card, player, opponent):
@@ -80,6 +84,7 @@ class Player(object):
         self.deck = deck
         self.name = name
         "*** YOUR CODE HERE ***"
+        self.hand = [self.deck.draw() for _ in range(5)]
 
     def draw(self):
         """Draw a card from the player's deck and add it to their hand.
@@ -94,6 +99,7 @@ class Player(object):
         """
         assert not self.deck.is_empty(), 'Deck is empty!'
         "*** YOUR CODE HERE ***"
+        self.hand.append(self.deck.draw())
 
     def play(self, card_index):
         """Remove and return a card from the player's hand at the given index.
@@ -110,6 +116,7 @@ class Player(object):
         2
         """
         "*** YOUR CODE HERE ***"
+        return self.hand.pop(card_index)
 
 
     def display_hand(self):
@@ -151,8 +158,10 @@ class TutorCard(Card):
         True
         """
         "*** YOUR CODE HERE ***"
+        opponent.hand = opponent.hand[3:]
+        [opponent.draw() for _ in range(3)]
         #Uncomment the line below when you've finished implementing this method!
-        #print('{} discarded and re-drew 3 cards!'.format(opponent.name))
+        print('{} discarded and re-drew 3 cards!'.format(opponent.name))
 
     def copy(self):
         """
@@ -177,6 +186,7 @@ class TACard(Card):
         300
         """
         "*** YOUR CODE HERE ***"
+        other_card.attack, other_card.defense = other_card.defense, other_card.attack
 
 
     def copy(self):
@@ -208,10 +218,19 @@ class ProfessorCard(Card):
         """
         orig_opponent_deck_length = len(opponent.deck.cards)
         "*** YOUR CODE HERE ***"
+        # Add the attack and defense of the opponent's card to all cards in the player's deck
+        for card in player.deck.cards:
+            card.attack += other_card.attack
+            card.defense += other_card.defense
+        # Remove opponent cards that have the same attack/defense as the other_card
+        for card in opponent.deck.cards[:]:
+            if other_card.attack == card.attack or other_card.defense == card.defense:
+                opponent.deck.cards.remove(card)
+        
         discarded = orig_opponent_deck_length - len(opponent.deck.cards)
         if discarded:
             #Uncomment the line below when you've finished implementing this method!
-            #print('{} cards were discarded from {}\'s deck!'.format(discarded, opponent.name))
+            print('{} cards were discarded from {}\'s deck!'.format(discarded, opponent.name))
             return
 
     def copy(self):
