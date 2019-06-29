@@ -37,7 +37,7 @@ Note that Jupyter Notebook runs Python kernel by default. Lecture notes that are
 |   6   | Fri 9/28 | Objects :pencil2: (Last video) | 2.5  | Exam Prep 04: Nonlocal, Iterators & Generators <br> Guerilla 03: Python Lists, Data Abstraction, Trees :pencil2: (last problem) | |
 |   7   | Mon 10/1 | Inheritance :heavy_check_mark:| 2.5  | Lab 06: Object-Oriented Programming :heavy_check_mark: | Ants :heavy_check_mark: |
 |   7   | Wed 10/3 | Representation :pencil2: (First video) | 2.7  |  Disc 06: Object-Oriented Programming :heavy_check_mark: |  |
-|   7   | Fri 10/5 | Growth :heavy_check_mark: | 2.8  | | HW 06 |
+|   7   | Fri 10/5 | Growth :heavy_check_mark: | 2.8  | | HW 06 :heavy_check_mark: |
 |   8   | Mon 10/8 | Composition :heavy_check_mark: | 2.9  | Lab 07: Linked Lists, Trees |  |
 |   8   | Wed 10/10 | Ordered Sets :pencil2: (First video) | 2.9  | Disc 07: Order of Growth, Linked Lists :heavy_check_mark: |  |
 |   8   | Fri 10/12 | Tree Sets :heavy_check_mark: | 2.9  |  Exam Prep 05: Object-Oriented Programming, Orders of Growth, Tree Recursion, Linked Lists <br> Guerilla 04: Nonlocal, Mutable Trees, Iterators & Generators, Linked Lists, Orders of Growth | | 
