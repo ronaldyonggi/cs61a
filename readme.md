@@ -10,6 +10,8 @@ Lecture notes are written in .ipynb files, which can be opened via Jupyter Noteb
 
 Note that Jupyter Notebook runs Python kernel by default. Lecture notes that are marked :bookmark: uses [Calysto Scheme](https://github.com/Calysto/calysto_scheme) kernel. Install and use the Calysto Scheme kernel to be able to execute cells in those lecture notes correctly.
 
+Some .ipynb files have doctests that ended with "import doctest, doctest.testmod()". These doctests can be tested simply by running the cells.
+
 | Symbol | Meaning |
 | --- | --- |
 |:heavy_check_mark:| Completed |
@@ -38,7 +40,7 @@ Note that Jupyter Notebook runs Python kernel by default. Lecture notes that are
 |   7   | Mon 10/1 | Inheritance :heavy_check_mark:| 2.5  | Lab 06: Object-Oriented Programming :heavy_check_mark: | Ants :heavy_check_mark: |
 |   7   | Wed 10/3 | Representation :pencil2: (First video) | 2.7  |  Disc 06: Object-Oriented Programming :heavy_check_mark: |  |
 |   7   | Fri 10/5 | Growth :heavy_check_mark: | 2.8  | | HW 06 :heavy_check_mark: |
-|   8   | Mon 10/8 | Composition :heavy_check_mark: | 2.9  | Lab 07: Linked Lists, Trees |  |
+|   8   | Mon 10/8 | Composition :heavy_check_mark: | 2.9  | Lab 07: Linked Lists, Trees :pencil2: (Q7, 8, 11, 12) |  |
 |   8   | Wed 10/10 | Ordered Sets :pencil2: (First video) | 2.9  | Disc 07: Order of Growth, Linked Lists :heavy_check_mark: |  |
 |   8   | Fri 10/12 | Tree Sets :heavy_check_mark: | 2.9  |  Exam Prep 05: Object-Oriented Programming, Orders of Growth, Tree Recursion, Linked Lists <br> Guerilla 04: Nonlocal, Mutable Trees, Iterators & Generators, Linked Lists, Orders of Growth | | 
 |   9   | Mon 10/15 | Data Examples :pencil2: (Last Video)|  | Lab 08: Midterm Review |  |
