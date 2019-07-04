@@ -3,6 +3,10 @@
 ; Q3
 (define (over-or-under x y)
   'YOUR-CODE-HERE
+  (cond
+   ((< x y) -1)
+   ((> x y) 1)
+   (else 0))
 )
 
 ;;; Tests
@@ -15,7 +19,12 @@
 
 ; Q4
 (define (filter f lst)
-  'YOUR-CODE-HERE
+  (cond
+  ; Base case: if lst is empty, then just return an empty list
+  ((null? lst) ())
+  ; Recursive case 1: If appyling f on the first element of lst returns true,
+  ; Cr
+  (f (car lst) (cons (car lst) (filter f (cdr lst))))
 )
 
 ;;; Tests

@@ -69,6 +69,12 @@ def deep_len(lnk):
     5
     """
     "*** YOUR CODE HERE ***"
+    if not lnk:
+        return 0
+    if isinstance(lnk.first, Link):
+        return deep_len(lnk.first) + deep_len(lnk.rest)
+    return 1 + deep_len(lnk.rest)
+
 
 # Recursion/Tree Recursion
 
