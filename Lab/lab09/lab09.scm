@@ -22,9 +22,12 @@
   (cond
   ; Base case: if lst is empty, then just return an empty list
   ((null? lst) ())
-  ; Recursive case 1: If appyling f on the first element of lst returns true,
-  ; Cr
-  (f (car lst) (cons (car lst) (filter f (cdr lst))))
+  ; Recursive case: If appyling f on the first element of lst returns true,
+  ; construct a list with cons using (car lst) as first and (filter f (cdr lst)) as rest
+  ( (f (car lst)) (cons (car lst) (filter f (cdr lst))))
+  ; Otherwise, check for the result of applying f to the next element of lst
+  (else (filter f (cdr lst)))
+  )
 )
 
 ;;; Tests
@@ -35,7 +38,7 @@
 
 ; Q5
 (define (make-adder num)
-  'YOUR-CODE-HERE
+  (lambda (x) (+ num x))
 )
 
 ;;; Tests

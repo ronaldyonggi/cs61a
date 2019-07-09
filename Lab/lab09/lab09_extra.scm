@@ -3,17 +3,29 @@
 
 ; Q5
 (define lst
-  'YOUR-CODE-HERE
+  (cons
+    (cons 1 nil) ; car
+    (cons 2 
+      (cons
+        (cons 3 4)
+        (cons 5 nil)
+      )
+    )
+  )
 )
 
 ; Q6
 (define (composed f g)
-  'YOUR-CODE-HERE
+  (lambda (x) (f (g x)))
 )
 
 ; Q7
 (define (remove item lst)
-  'YOUR-CODE-HERE
+  (filter ; call the filter function
+    (lambda (x) 
+      (not (= item x)))
+    lst
+  )
 )
 
 
@@ -27,15 +39,37 @@
 
 ; Q8
 (define (no-repeats s)
-  'YOUR-CODE-HERE
+  (if (null? s) s 
+    (cons (car s)
+      (no-repeats
+        (filter
+          (lambda (x) (not (= (car s) x)))
+          (cdr s)
+        ) ; End of filter
+      ) ; End of no-repeats
+    ) ; End of cons
+  ) ; End of if suite
 )
 
 ; Q9
 (define (substitute s old new)
-  'YOUR-CODE-HERE
+  (cond
+    ((null? s) s) ; If s is empty, then just return s
+    ; if 'car s' is a nested list, then construct a list where the first is the recursive call of substitute on car s,
+    ; while the .rest is the recursive call of substitute on cdr s
+    ((pair? (car s)) (cons
+                      (substitute (car s) old new)
+                      (substitute (cdr s) old new)
+    ))
+    ; If 'car s' is old, start constructing a list where '.first' is 'new' while '.rest' is the
+    ; recursive call of substitute on cdr s
+    ((eq? (car s) old) (cons new (substitute (cdr s) old new)))
+    ; Otherwise, if (car s) is just an element that is not 'old', construct a list where the '.first' is still 'car s',
+    ; and '.rest' is the recursive call of substitute on 'cdr s'
+    (else (cons (car s) (substitute (cdr s) old new)))
+  )
 )
 
 ; Q10
 (define (sub-all s olds news)
-  'YOUR-CODE-HERE
 )
