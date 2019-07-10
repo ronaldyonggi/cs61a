@@ -3,3 +3,5 @@
 'memory-correct', (1024, 70)
 'build_successors_table-correct', (1536, 70)
 'construct_sent-correct', (2048, 70)
+'sprout_leaves-correct', (2560, 70)
+'add_trees-correct', (3072, 70)

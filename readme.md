@@ -32,9 +32,9 @@ Some .ipynb files have doctests that ended with "import doctest, doctest.testmod
 |   4   | Wed 9/12 | Tree Recursion :heavy_check_mark: | 1.7  |  Disc 03: Recursion, Tree Recursion :heavy_check_mark:  |  |
 |   4   | Fri 9/14 | Data Abstraction :heavy_check_mark:| 2.1, 2.2 |  Exam Prep 02: Recursion, Tree Recursion <br> Guerilla 02: Higher-Order Functions, Recursion, Tree Recursion :heavy_check_mark: | HW 4 :heavy_check_mark: |
 |   5   | Mon 9/17 | Containers :heavy_check_mark: | 2.3  | Lab 04: Python Lists, Data Abstraction :heavy_check_mark: | Maps :heavy_check_mark: |
-|   5   | Wed 9/19 | Trees :heavy_check_mark: | 2.3  |  Disc 04: Python Lists, Trees :pencil2: (Skipped last problem)  |  |
+|   5   | Wed 9/19 | Trees :heavy_check_mark: | 2.3  |  Disc 04: Python Lists, Trees :heavy_check_mark:  |  |
 |   5   | Fri 9/21 | Mutable Values :heavy_check_mark: | 2.4  | Exam Prep 03: Trees, Python Lists | HW 05 |
-|   6   | Mon 9/24 | Mutable Functions :heavy_check_mark: | 2.4  | Lab 05: Python Lists, Trees :pencil2: (last problem) |  |
+|   6   | Mon 9/24 | Mutable Functions :heavy_check_mark: | 2.4  | Lab 05: Python Lists, Trees :heavy_check_mark: | |
 |   6   | Wed 9/26 | Iterators :heavy_check_mark: | 2.4  |  Disc 05: Nonlocal, Iterators & Generators :heavy_check_mark:  |  |
 |   6   | Fri 9/28 | Objects :pencil2: (Last video) | 2.5  | Exam Prep 04: Nonlocal, Iterators & Generators <br> Guerilla 03: Python Lists, Data Abstraction, Trees :pencil2: (last problem) | |
 |   7   | Mon 10/1 | Inheritance :heavy_check_mark:| 2.5  | Lab 06: Object-Oriented Programming :heavy_check_mark: | Ants :heavy_check_mark: |
