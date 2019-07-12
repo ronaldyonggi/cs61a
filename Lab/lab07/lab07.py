@@ -76,6 +76,30 @@ def is_bst(t):
     False
     """
     "*** YOUR CODE HERE ***"
+    def bst_min(t):
+        """ Returns the min of t, assuming t has the structure of a valid BST """
+        if t.is_leaf():
+            return t.label
+        return min(t.label, bst_min(t.branches[0]))
+
+    def bst_max(t):
+        """ Returns the max of t, assuming t has the structure of a valid BST """
+        if t.is_leaf():
+            return t.label
+        return max(t.label, bst_max(t.branches[-1]))
+    
+    if t.is_leaf():
+        return True
+    if len(t.branches) == 1:
+        c = t.branches[0]
+        return is_bst(c) and (bst_max(c) <= t.label or bst_min(c) > t.label)
+    elif len(t.branches) == 2:
+        c1, c2 = t.branches
+        valid_branches = is_bst(c1) and is_bst(c2)
+        return valid_branches and bst_max(c1) <= t.label and bst_min(c2) > t.label
+    else:
+        return False
+
 
 # Q8
 
@@ -97,6 +121,13 @@ def in_order_traversal(t):
     [4, 2, 6, 5, 7, 1, 3]
     """
     "*** YOUR CODE HERE ***"
+    if t.is_leaf():
+        yield t.label
+    else:
+        left, right = t.branches
+        yield from in_order_traversal(left)
+        yield t.label
+        yield from in_order_traversal(right)
 
 # Linked List Class
 class Link:

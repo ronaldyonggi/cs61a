@@ -18,6 +18,14 @@ def remove_all(link , value):
     <0 1>
     """
     "*** YOUR CODE HERE ***"
+    if not link.rest:
+        return
+    elif link.second == value:
+        link.rest = link.rest.rest
+        remove_all(link, value)
+    else:
+        remove_all(link.rest, value)
+
 
 # Q10
 def deep_map_mut(fn, link):
@@ -33,6 +41,13 @@ def deep_map_mut(fn, link):
     <9 <16> 25 36>
     """
     "*** YOUR CODE HERE ***"
+    if not link:
+        return
+    elif isinstance(link.first, Link):
+        deep_map_mut(fn, link.first)
+    else:
+        link.first = fn(link.first)
+    deep_map_mut(fn, link.rest)
 
 # Q11
 def has_cycle(link):
@@ -50,6 +65,13 @@ def has_cycle(link):
     False
     """
     "*** YOUR CODE HERE ***"
+    links = []
+    while link is not Link.empty:
+        if link in links:
+            return True
+        links.append(link)
+        link = link.rest
+    return False
 
 def has_cycle_constant(link):
     """Return whether link contains a cycle.
@@ -63,6 +85,19 @@ def has_cycle_constant(link):
     False
     """
     "*** YOUR CODE HERE ***"
+    if link is Link.empty:
+        return False
+    # if link is not empty, then start assigning slow and fast to link and link.rest
+    slow, fast = link, link.rest
+    # Create a while loop that keeps running as long as 'fast' is not empty
+    while fast is not Link.empty:
+        if fast.rest is Link.empty:
+            return False
+        elif slow is fast or slow is fast.rest:
+            return True
+        else:
+            slow, fast = slow.rest, fast.rest.rest
+    return False
 
 # Q12
 def reverse_other(t):
@@ -79,3 +114,13 @@ def reverse_other(t):
     Tree(1, [Tree(8, [Tree(3, [Tree(5), Tree(4)]), Tree(6, [Tree(7)])]), Tree(2)])
     """
     "*** YOUR CODE HERE ***"
+    def reverse_helper(t, need_reverse):
+        if t.is_leaf():
+            return
+        new_labs = [child.label for child in t.branches][::-1]
+        for i in range(len(t.branches)):
+            child = t.branches[i]
+            reverse_helper(child, not need_reverse)
+            if need_reverse:
+                child.label = new_labs[i]
+    reverse_helper(t, True)
