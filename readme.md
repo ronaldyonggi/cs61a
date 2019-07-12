@@ -42,7 +42,7 @@ Some .ipynb files have doctests that ended with "import doctest, doctest.testmod
 |   7   | Fri 10/5 | Growth :heavy_check_mark: | 2.8  | | HW 06 :heavy_check_mark: |
 |   8   | Mon 10/8 | Composition :heavy_check_mark: | 2.9  | Lab 07: Linked Lists, Trees :heavy_check_mark: |  |
 |   8   | Wed 10/10 | Ordered Sets :pencil2: (First video) | 2.9  | Disc 07: Order of Growth, Linked Lists :heavy_check_mark: |  |
-|   8   | Fri 10/12 | Tree Sets :heavy_check_mark: | 2.9  |  Exam Prep 05: Object-Oriented Programming, Orders of Growth, Tree Recursion, Linked Lists <br> Guerilla 04: Nonlocal, Mutable Trees, Iterators & Generators, Linked Lists, Orders of Growth :pencil2: (Q8b and after) | | 
+|   8   | Fri 10/12 | Tree Sets :heavy_check_mark: | 2.9  |  Exam Prep 05: Object-Oriented Programming, Orders of Growth, Tree Recursion, Linked Lists <br> Guerilla 04: Nonlocal, Mutable Trees, Iterators & Generators, Linked Lists, Orders of Growth :heavy_check_mark: | | 
 |   9   | Mon 10/15 | Data Examples :pencil2: (Last Video)|  | Lab 08: Midterm Review |  |
 |   9   | Wed 10/17 | Midterm 2 | |   |  |
 |   9   | Fri 10/19 | Users | | | HW 07 |
