@@ -3,36 +3,64 @@
 
 (define (cadr s)
   'YOUR-CODE-HERE
+  (car (cdr s))
 )
 
 (define (caddr s)
   'YOUR-CODE-HERE
+  (car (cddr s))
 )
 
 (define (sign x)
   'YOUR-CODE-HERE
+  (cond
+    ((< x 0) -1)
+    ((> x 0) 1)
+    (else 0))
 )
 
 (define (square x) (* x x))
 
 (define (pow b n)
   'YOUR-CODE-HERE
+  (cond
+    ((= n 0) 1)
+    ((even? n) (square (pow b (/ n 2))))
+    (else (* b (pow b (- n 1))))
+  ) ; End of cond
 )
 
 (define (ordered? s)
   'YOUR-CODE-HERE
+  (if (or (null? s) (null? (cdr s)))
+      'True
+      (and
+        (<= (car s) (cadr s))
+        (ordered? (cdr s))
+      ) ; End of and
+  ) ; End of if 
 )
 
 (define (empty? s) (null? s))
 
 (define (add s v)
     'YOUR-CODE-HERE
-    )
+    (cond
+      ((empty? s) (list v))
+      ((= (car s) v) s)
+      ((< v (car s)) (cons v s))
+      (else (cons (car s) (add (cdr s) v)))
+    ) ; End of cond
+) ; End of define
 
 ; Sets as sorted lists
 (define (contains? s v)
     'YOUR-CODE-HERE
+    (if (empty? s)
+      #f
+      (or (= (car s) v) (contains (cdr s) v))
     )
+)
 
 ; Equivalent Python code, for your reference:
 ;
@@ -51,7 +79,13 @@
 
 (define (intersect s t)
     'YOUR-CODE-HERE
+    (cond
+      ((or (empty? s) (empty? t)) ())
+      ((= (car s) (car t)) (cons (car s) (intersect (cdr s) (cdr t))))
+      ((> (car s) (car t)) (intersect s (cdr t)))
+      ((< (car s) (car t)) (intersect (cdr s) t))
     )
+)
 
 ; Equivalent Python code, for your reference:
 ;
@@ -69,4 +103,11 @@
 
 (define (union s t)
     'YOUR-CODE-HERE
-    )
+    (cond
+      ((empty? s) t)
+      ((empty? t) s)
+      ((= (car s) (car t)) (cons (car s) (union (cdr s) (cdr t))))
+      ((< (car s) (car t)) (cons (car s) (union (cdr s) t)))
+      ((> (car s) (car t)) (cons (car t) (union s (cdr t))))
+    ) ;End of cond
+) ; End of union

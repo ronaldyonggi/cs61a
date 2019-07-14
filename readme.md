@@ -45,7 +45,7 @@ Some .ipynb files have doctests that ended with "import doctest, doctest.testmod
 |   8   | Fri 10/12 | Tree Sets :heavy_check_mark: | 2.9  |  Exam Prep 05: Object-Oriented Programming, Orders of Growth, Tree Recursion, Linked Lists <br> Guerilla 04: Nonlocal, Mutable Trees, Iterators & Generators, Linked Lists, Orders of Growth :heavy_check_mark: | | 
 |   9   | Mon 10/15 | Data Examples :pencil2: (Last Video)|  | Lab 08: Midterm Review |  |
 |   9   | Wed 10/17 | Midterm 2 | |   |  |
-|   9   | Fri 10/19 | Users | | | HW 07 |
+|   9   | Fri 10/19 | Users | | | HW 07 :heavy_check_mark: |
 | 10 | Mon 10/22 | :bookmark: Scheme :heavy_check_mark: | 3.1, 3.2 | Lab 09: Scheme :heavy_check_mark: | |
 | 10 | Wed 10/24 | :bookmark: Exceptions :heavy_check_mark: | 3.3 | Disc 08: Scheme :heavy_check_mark: | |
 | 10 | Fri 10/26 | :bookmark: Calculator :heavy_check_mark: | 3.4 | Exam Prep 06: Scheme, Scheme Lists, Interpreters <br> Guerilla 05: Scheme :pencil2: (Exceptions)| HW 08 |
