@@ -1,6 +1,11 @@
 (define (reverse lst)
     'YOUR-CODE-HERE
-)
+    (if (null? lst)
+      ()
+      (append (reverse (cdr lst)) (list (car lst)))
+    ) ; End of if
+) ; End of define
+
 (define (longest-increasing-subsequence lst)
     'YOUR-CODE-HERE
 )

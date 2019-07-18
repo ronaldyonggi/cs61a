@@ -3,6 +3,9 @@
 (define (repeatedly-cube n x)
     (if (zero? n)
         x
-        (let
-            (_________________________)
-            (* y y y))))
+        (let (
+            (y (repeatedly-cube (- n 1) x)))
+            (* y y y)
+        ) ; End of let
+    ) ; End of if
+) ; End of define
