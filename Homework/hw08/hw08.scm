@@ -8,6 +8,23 @@
 
 (define (longest-increasing-subsequence lst)
     'YOUR-CODE-HERE
+    (if (null? lst)
+      lst
+      (begin
+        (define with-car
+          (cons
+            (car lst)
+            (longest-increasing-subsequence
+              (filter
+                (lambda (x) (> x (car lst)))
+                (cdr lst)))))
+        (define without-car
+          (longest-increasing-subsequence (cdr lst)))
+        (if (> (length with-car) (length without-car))
+          with-car
+          without-car)
+      ) ; End of begin
+    ) ; End of if
 )
 
 (define (cadr s) (car (cdr s)))
@@ -56,33 +73,52 @@
 (define (multiplicand p) (caddr p))
 
 (define (derive-sum expr var)
-  'YOUR-CODE-HERE
-)
+  (make-sum
+    (derive (addend expr) var)
+    (derive (augend expr) var)
+  ) ; End of make-sum
+) ; End of define
 
 (define (derive-product expr var)
-  'YOUR-CODE-HERE
-)
+  (begin
+    (define dmul (derive (multiplier expr) var))
+    (define dcand (derive (multiplicand expr) var)))
+  (make-sum
+    (make-product dmul (multiplicand expr))
+    (make-product (multiplier expr) dcand)
+  ); End of make-sum
+) ; End of define
 
 ; Exponentiations are represented as lists that start with ^.
 (define (make-exp base exponent)
-  'YOUR-CODE-HERE
-)
+  (cond
+    ((= exponent 0) 1)
+    ((= exponent 1) base)
+    ((number? base) (expt base exponent))
+    (else (list '^ base exponent))
+  ) ; End of cond
+) ; End of define
 
 (define (base exp)
-  'YOUR-CODE-HERE
+  (cadr exp)
 )
 
 (define (exponent exp)
-  'YOUR-CODE-HERE
+  (caddr exp)
 )
 
 (define (exp? exp)
-  'YOUR-CODE-HERE
+  (and
+    (list? exp)
+    (eq? (car exp) '^))
 )
 
 (define x^2 (make-exp 'x 2))
 (define x^3 (make-exp 'x 3))
 
 (define (derive-exp exp var)
-  'YOUR-CODE-HERE
-)
+  (if (= 2 (exponent exp))
+    (make-product (exponent exp) (base exp))
+    (make-product (exponent exp) (make-exp (base exp) (- (exponent exp) 1)))
+  ) ; End of if
+) ; End of define
