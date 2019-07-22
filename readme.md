@@ -8,9 +8,9 @@ All course materials are based on the [Fall 2018](https://cs61a.org/) course.
 
 Lecture notes are written in .ipynb files, which can be opened via Jupyter Notebook or Jupyter Lab. Some materials (e.g. environment diagrams) require installation of the [tutormagic](https://github.com/kikocorreoso/tutormagic) extension by kikocorreoso to be displayed correctly.
 
-Note that Jupyter Notebook runs Python kernel by default. Lecture notes that are marked :bookmark: uses [Calysto Scheme](https://github.com/Calysto/calysto_scheme) kernel. Install and use the Calysto Scheme kernel to be able to execute cells in those lecture notes correctly.
+Note that Jupyter Notebook runs Python kernel by default. Lecture notes that are marked :bookmark: uses [Calysto Scheme](https://github.com/Calysto/calysto_scheme) kernel. Install and use the Calysto Scheme kernel to be able to execute cells in those lecture notes properly.
 
-Some .ipynb files have doctests that ended with "import doctest, doctest.testmod()". These doctests can be tested simply by running the cells.
+Some .ipynb files have doctests that are indicated with "import doctest, doctest.testmod()". These doctests can be tested simply by running the cells.
 
 | Symbol | Meaning |
 | --- | --- |
@@ -46,10 +46,10 @@ Some .ipynb files have doctests that ended with "import doctest, doctest.testmod
 |   9   | Mon 10/15 | Data Examples :pencil2: (Last Video)|  | Lab 08: Midterm Review |  |
 |   9   | Wed 10/17 | Midterm 2 | |   |  |
 |   9   | Fri 10/19 | Users | | | HW 07 :heavy_check_mark: |
-| 10 | Mon 10/22 | :bookmark: Scheme :heavy_check_mark: | 3.1, 3.2 | Lab 09: Scheme :heavy_check_mark: | |
-| 10 | Wed 10/24 | :bookmark: Exceptions :heavy_check_mark: | 3.3 | Disc 08: Scheme :heavy_check_mark: | |
-| 10 | Fri 10/26 | :bookmark: Calculator :heavy_check_mark: | 3.4 | Exam Prep 06: Scheme, Scheme Lists, Interpreters <br> Guerilla 05: Scheme :pencil2: (Exceptions)| HW 08 :heavy_check_mark: |
-| 11 | Mon 10/29 | Interpreters | 3.5 | Lab 10: Interpreters :heavy_check_mark: | Scheme |
+| 10 | Mon 10/22 | :bookmark: Scheme :heavy_check_mark: | 3.1, 3.2 | :bookmark: Lab 09: Scheme :heavy_check_mark: | |
+| 10 | Wed 10/24 | :bookmark: Exceptions :heavy_check_mark: | 3.3 | :bookmark: Disc 08: Scheme :heavy_check_mark: | |
+| 10 | Fri 10/26 | :bookmark: Calculator :heavy_check_mark: | 3.4 |:bookmark: Exam Prep 06: Scheme, Scheme Lists, Interpreters <br> :bookmark: Guerilla 05: Scheme :pencil2: (Exceptions)| HW 08 :heavy_check_mark: |
+| 11 | Mon 10/29 | Interpreters | 3.5 | :bookmark: Lab 10: Interpreters :heavy_check_mark: | :bookmark: Scheme |
 | 11 | Wed 10/31 | Tail Calls | 3.5 | Disc 09: Interpreters, Tail Recursion | Scheme Challenge Version |
 | 11 | Fri 11/2 | Macros | 3.5 | | HW 09 |
 | 12 | Mon 11/5 | :bookmark: Streams |  | Lab 11: Macros | |
