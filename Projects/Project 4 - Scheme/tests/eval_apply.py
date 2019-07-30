@@ -5,7 +5,7 @@ test = {
     {
       'cases': [
         {
-          'answer': 'f0f61d61071445ee3234a1688a49f72c',
+          'answer': 'A primitive expression or a combination',
           'choices': [
             'A primitive expression or a combination',
             'A pair or a list',
@@ -13,11 +13,11 @@ test = {
             'A primitive expression or a special form'
           ],
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'question': 'A Scheme expression can be either...'
         },
         {
-          'answer': 'f9007bdc473e42efc27b7ee858aff42e',
+          'answer': 'env.lookup(expr)',
           'choices': [
             'env.find(name)',
             'scheme_symbolp(expr)',
@@ -25,11 +25,11 @@ test = {
             'SPECIAL_FORMS[first](rest, env)'
           ],
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'question': 'What expression in the body of scheme_eval finds the value of a name?'
         },
         {
-          'answer': 'be44f46671dafd5aa02dcb249280afc6',
+          'answer': 'Check if the first element in the list is a symbol and that the symbol is in the dictionary SPECIAL_FORMS',
           'choices': [
             r"""
             Check if the first element in the list is a symbol and that the
@@ -39,11 +39,11 @@ test = {
             'Check if the expression is in the dictionary SPECIAL_FORMS'
           ],
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'question': 'How do we know if a given combination is a special form?'
         },
         {
-          'answer': '8d0ead155e250bd28be8ad8e84e92982',
+          'answer': 'Whenever a user-defined procedure is called; we use the make_call_frame method of LambdaProcedure',
           'choices': [
             r"""
             Whenever a primitive or user-defined procedure is called; we use
@@ -63,7 +63,7 @@ test = {
             """
           ],
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'question': 'When and how do we create new Frames?'
         },
         {

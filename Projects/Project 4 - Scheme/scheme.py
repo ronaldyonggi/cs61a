@@ -30,9 +30,13 @@ def scheme_eval(expr, env, _=None): # Optional third argument is ignored
     first, rest = expr.first, expr.second
     if scheme_symbolp(first) and first in SPECIAL_FORMS:
         return SPECIAL_FORMS[first](rest, env)
-    else:
+    else: # Evaluates a call expression
         # BEGIN PROBLEM 5
         "*** YOUR CODE HERE ***"
+        evaluated_operator = scheme_eval(first, env)
+        check_procedure(evaluated_operator)
+        evaluated_operands = rest.map(lambda x: scheme_eval(x, env))
+        return scheme_apply(evaluated_operator, evaluated_operands, env)
         # END PROBLEM 5
 
 def self_evaluating(expr):
@@ -78,6 +82,7 @@ class Frame(object):
         """Define Scheme SYMBOL to have VALUE."""
         # BEGIN PROBLEM 3
         "*** YOUR CODE HERE ***"
+        self.bindings[symbol] = value
         # END PROBLEM 3
 
     def lookup(self, symbol):
@@ -85,7 +90,12 @@ class Frame(object):
         # BEGIN PROBLEM 3
         "*** YOUR CODE HERE ***"
         # END PROBLEM 3
-        raise SchemeError('unknown identifier: {0}'.format(symbol))
+        if not self.parent and symbol not in self.bindings:
+            raise SchemeError('unknown identifier: {0}'.format(symbol))
+        elif symbol in self.bindings:
+            return self.bindings[symbol]
+        else:
+            return self.parent.lookup(symbol)
 
 
     def make_child_frame(self, formals, vals):
@@ -141,6 +151,13 @@ class BuiltinProcedure(Procedure):
             python_args.append(args.first)
             args = args.second
         # BEGIN PROBLEM 4
+        if self.use_env:
+            python_args.append(env)
+        try:
+            return self.fn(*python_args)
+        except TypeError:
+            raise SchemeError
+
         "*** YOUR CODE HERE ***"
         # END PROBLEM 4
 
@@ -200,7 +217,8 @@ def do_define_form(expressions, env):
     if scheme_symbolp(target):
         check_form(expressions, 2, 2)
         # BEGIN PROBLEM 6
-        "*** YOUR CODE HERE ***"
+        env.define(target, scheme_eval(expressions.second.first, env))
+        return target
         # END PROBLEM 6
     elif isinstance(target, Pair) and scheme_symbolp(target.first):
         # BEGIN PROBLEM 10
