@@ -6,7 +6,11 @@
 ; Some utility functions that you may find useful to implement.
 
 (define (cons-all first rests)
-  'replace-this-line)
+  (if (null? rests) ; If rests is empty to begin with
+    (list first) ; Then just return a list containing first
+    (map (lambda (x) (append (list first) x)) rests)
+  ) ; End of if statement
+) ; End of define
 
 (define (zip pairs)
   'replace-this-line)
@@ -15,16 +19,33 @@
 ;; Returns a list of two-element lists
 (define (enumerate s)
   ; BEGIN PROBLEM 17
-  'replace-this-line
-  )
+  (define (helper index s)
+    (if (null? s)
+      nil
+      (cons
+        (list index (car s))
+        (helper (+ 1 index) (cdr s))
+      ) ; End of cons
+    ) ; End of if statement
+  ) ; End of helper definition
+  (helper 0 s) ; Initiate the helper call
+) ; End of enumerate definition
   ; END PROBLEM 17
 
 ;; Problem 18
 ;; List all ways to make change for TOTAL with DENOMS
 (define (list-change total denoms)
   ; BEGIN PROBLEM 18
-  'replace-this-line
-  )
+  (cond
+    ((or (< total 0) (null? denoms)) nil)
+    ((= total 0) (cons nil nil))
+    ((<= (car denoms) total)
+      (append
+        (cons-all (car denoms)
+                  (list-change (- total (car denoms)) denoms))
+        (list-change total (cdr denoms))))
+    (else (list-change total (cdr denoms)))))
+
   ; END PROBLEM 18
 
 ;; Problem 19
