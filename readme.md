@@ -50,7 +50,7 @@ Some .ipynb files have doctests that are indicated with "import doctest, doctest
 | 10 | Wed 10/24 | :bookmark: Exceptions :heavy_check_mark: | 3.3 | :bookmark: Disc 08: Scheme :heavy_check_mark: | |
 | 10 | Fri 10/26 | :bookmark: Calculator :heavy_check_mark: | 3.4 |:bookmark: Exam Prep 06: Scheme, Scheme Lists, Interpreters <br> :bookmark: Guerilla 05: Scheme :pencil2: (Exceptions)| HW 08 :heavy_check_mark: |
 | 11 | Mon 10/29 | :bookmark: Interpreters :heavy_check_mark: | 3.5 | :bookmark: Lab 10: Interpreters :heavy_check_mark: | :bookmark: Scheme |
-| 11 | Wed 10/31 | Tail Calls | 3.5 | Disc 09: Interpreters, Tail Recursion | Scheme Challenge Version |
+| 11 | Wed 10/31 | Tail Calls :heavy_check_mark: | 3.5 | Disc 09: Interpreters, Tail Recursion | Scheme Challenge Version |
 | 11 | Fri 11/2 | Macros | 3.5 | | HW 09 |
 | 12 | Mon 11/5 | :bookmark: Streams |  | Lab 11: Macros | |
 | 12 | Wed 11/7 | Declarative Programming | 4.3 | Disc 10: Macros, Streams | Scheme Contest |
