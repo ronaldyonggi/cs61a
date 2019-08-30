@@ -6,9 +6,16 @@ This repository contains the progress of UC Berkeley CS61A course materials that
 
 All course materials are based on the [Fall 2018](https://cs61a.org/) course.
 
-Lecture notes are written in .ipynb files, which can be opened via Jupyter Notebook or Jupyter Lab. Some materials (e.g. environment diagrams) require installation of the [tutormagic](https://github.com/kikocorreoso/tutormagic) extension by kikocorreoso to be displayed correctly.
+Lecture notes are written in .ipynb files, which can be opened via Jupyter Notebook or Jupyter Lab. Lecture notes that are marked :bookmark: uses [Calysto Scheme](https://github.com/Calysto/calysto_scheme) kernel. 
 
-Note that Jupyter Notebook runs Python kernel by default. Lecture notes that are marked :bookmark: uses [Calysto Scheme](https://github.com/Calysto/calysto_scheme) kernel. Install and use the Calysto Scheme kernel to be able to execute cells in those lecture notes properly.
+Installation of some extensions are required so that lecture notes can be displayed correctly:
+
+| Extension | Description |
+| --- | --- | 
+| [tutormagic](https://github.com/kikocorreoso/tutormagic) | IPython magics to embed diagrams from [Python Tutor](http://pythontutor.com/) |
+| [Calysto Scheme](https://github.com/Calysto/calysto_scheme) | Scheme kernel for Jupyter |
+
+Install and use the Calysto Scheme kernel to be able to execute cells in those lecture notes properly.
 
 Some .ipynb files have doctests that are indicated with "import doctest, doctest.testmod()". These doctests can be tested simply by running the cells.
 
@@ -51,7 +58,7 @@ Some .ipynb files have doctests that are indicated with "import doctest, doctest
 | 10 | Fri 10/26 | :bookmark: Calculator :heavy_check_mark: | 3.4 |:bookmark: Exam Prep 06: Scheme, Scheme Lists, Interpreters <br> :bookmark: Guerilla 05: Scheme :pencil2: (Exceptions)| HW 08 :heavy_check_mark: |
 | 11 | Mon 10/29 | :bookmark: Interpreters :heavy_check_mark: | 3.5 | :bookmark: Lab 10: Interpreters :heavy_check_mark: | :bookmark: Scheme |
 | 11 | Wed 10/31 | Tail Calls :heavy_check_mark: | 3.5 | Disc 09: Interpreters, Tail Recursion | Scheme Challenge Version |
-| 11 | Fri 11/2 | Macros | 3.5 | | HW 09 |
+| 11 | Fri 11/2 | :bookmark: Macros | 3.5 | | HW 09 |
 | 12 | Mon 11/5 | :bookmark: Streams |  | Lab 11: Macros | |
 | 12 | Wed 11/7 | Declarative Programming | 4.3 | Disc 10: Macros, Streams | Scheme Contest |
 | 12 | Fri 11/9 | Tables | 4.3 | Exam Prep 07: Tail Recursion <br> Exam Prep 08: Macros <br> Guerilla 06: Streams, Tail Recursion, Interpreters, Macros | HW 10 |
