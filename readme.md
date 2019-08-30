@@ -6,23 +6,21 @@ This repository contains the progress of UC Berkeley CS61A course materials that
 
 All course materials are based on the [Fall 2018](https://cs61a.org/) course.
 
-Lecture notes are written in .ipynb files, which can be opened via Jupyter Notebook or Jupyter Lab. Lecture notes that are marked :bookmark: uses [Calysto Scheme](https://github.com/Calysto/calysto_scheme) kernel. 
-
-Installation of some extensions are required so that lecture notes can be displayed correctly:
+Lecture notes are written in .ipynb files, which can be opened via Jupyter Notebook or Jupyter Lab. Some lecture notes and materials requires installation of extensions:
 
 | Extension | Description |
 | --- | --- | 
 | [tutormagic](https://github.com/kikocorreoso/tutormagic) | IPython magics to embed diagrams from [Python Tutor](http://pythontutor.com/) |
 | [Calysto Scheme](https://github.com/Calysto/calysto_scheme) | Scheme kernel for Jupyter |
 
-Install and use the Calysto Scheme kernel to be able to execute cells in those lecture notes properly.
+Cells containing doctests (indicated by `import doctest` or  `doctest.testmod()`) can be run simply by running the cells.
 
-Some .ipynb files have doctests that are indicated with "import doctest, doctest.testmod()". These doctests can be tested simply by running the cells.
+Legend:
 
-| Symbol | Meaning |
+| Symbol | Explanation |
 | --- | --- |
 |:heavy_check_mark:| Completed |
-|:pencil2:| Completed with Exception (e.g. skipped a problem) or Incomplete |
+|:pencil2:| Incomplete |
 |:bookmark: | Uses Calysto Scheme kernel|
 
 |  Week  |  Date  | Lecture | Textbook | Handout | Homework & Project|
