@@ -12,6 +12,7 @@ Lecture notes are written in .ipynb files, which can be opened via Jupyter Noteb
 | --- | --- | 
 | [tutormagic](https://github.com/kikocorreoso/tutormagic) | IPython magics to embed diagrams from [Python Tutor](http://pythontutor.com/) |
 | [Calysto Scheme](https://github.com/Calysto/calysto_scheme) | Scheme kernel for Jupyter |
+| [ipython sql](https://github.com/catherinedevlin/ipython-sql) | %%sql magic for IPython |
 
 Cells containing doctests (indicated by `import doctest` or  `doctest.testmod()`) can be run simply by running the cells.
 
@@ -22,6 +23,7 @@ Legend:
 |:heavy_check_mark:| Completed |
 |:pencil2:| Incomplete |
 |:bookmark: | Uses Calysto Scheme kernel|
+
 
 |  Week  |  Date  | Lecture | Textbook | Handout | Homework & Project|
 |  ---  |  ---  | ----- | ---- | ---- | ---- | 
