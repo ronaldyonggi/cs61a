@@ -1,10 +1,6 @@
 # CS61A Fall 2018 Progress Tracker
 
-This repository contains the progress of UC Berkeley CS61A course materials that I have completed.
-
-## Progress Table
-
-All course materials are based on the [Fall 2018](https://cs61a.org/) course.
+This repository contains the progress of UC Berkeley CS61A course materials that I have completed. Course materials are based on the [Fall 2018](https://cs61a.org/) course.
 
 Lecture notes are written in .ipynb files, which can be opened via Jupyter Notebook or Jupyter Lab. Some lecture notes and materials requires installation of extensions:
 
