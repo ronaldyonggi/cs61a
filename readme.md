@@ -10,9 +10,9 @@ Lecture notes are written in .ipynb files, which can be opened via Jupyter Noteb
 
 | Extension | Description |
 | --- | --- | 
-| [tutormagic](https://github.com/kikocorreoso/tutormagic) | IPython magics to embed diagrams from [Python Tutor](http://pythontutor.com/) |
+| [tutormagic](https://github.com/kikocorreoso/tutormagic) | IPython magics to display environment diagrams from [Python Tutor](http://pythontutor.com/) |
 | [Calysto Scheme](https://github.com/Calysto/calysto_scheme) | Scheme kernel for Jupyter |
-| [ipython sql](https://github.com/catherinedevlin/ipython-sql) | %%sql magic for IPython |
+| [ipython sql](https://github.com/catherinedevlin/ipython-sql) | %%sql magics for IPython |
 
 Cells containing doctests (indicated by `import doctest` or  `doctest.testmod()`) can be run simply by running the cells.
 
@@ -23,6 +23,7 @@ Legend:
 |:heavy_check_mark:| Completed |
 |:pencil2:| Incomplete |
 |:bookmark: | Uses Calysto Scheme kernel|
+|:paperclip: | Uses sql magics |
 
 
 |  Week  |  Date  | Lecture | Textbook | Handout | Homework & Project|
@@ -60,10 +61,10 @@ Legend:
 | 11 | Wed 10/31 | Tail Calls :heavy_check_mark: | 3.5 | Disc 09: Interpreters, Tail Recursion | Scheme Challenge Version |
 | 11 | Fri 11/2 | :bookmark: Macros | 3.5 | | HW 09 |
 | 12 | Mon 11/5 | :bookmark: Streams |  | Lab 11: Macros | |
-| 12 | Wed 11/7 | Declarative Programming | 4.3 | Disc 10: Macros, Streams | Scheme Contest |
-| 12 | Fri 11/9 | Tables | 4.3 | Exam Prep 07: Tail Recursion <br> Exam Prep 08: Macros <br> Guerilla 06: Streams, Tail Recursion, Interpreters, Macros | HW 10 |
+| 12 | Wed 11/7 | :paperclip: Declarative Programming :heavy_check_mark: | 4.3 | Disc 10: Macros, Streams | Scheme Contest |
+| 12 | Fri 11/9 | :paperclip: Tables :heavy_check_mark: | 4.3 | Exam Prep 07: Tail Recursion <br> Exam Prep 08: Macros <br> Guerilla 06: Streams, Tail Recursion, Interpreters, Macros | HW 10 |
 | 13 | Mon 11/12 | No Lecture: Veterans Day | | Lab 12: SQL | |
-| 13 | Wed 11/14 | Aggregation | 4.3 | Disc 11: SQL | |
+| 13 | Wed 11/14 | :paperclip: Aggregation :heavy_check_mark: | 4.3 | Disc 11: SQL | |
 | 13 | Fri 11/16 | No Lecture: Class Cancelled | | | HW 11 |
 | 14 | Mon 11/19 | Databases | 4.3 | | | 
 | 14 | Wed 11/21 | No Lecture: Thanksgiving | | Disc 12: Final Review | |
