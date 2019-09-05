@@ -62,10 +62,10 @@ Legend:
 | 13 | Mon 11/12 | No Lecture: Veterans Day | | Lab 12: SQL | |
 | 13 | Wed 11/14 | :paperclip: Aggregation :heavy_check_mark: | 4.3 | Disc 11: SQL | |
 | 13 | Fri 11/16 | No Lecture: Class Cancelled | | | HW 11 |
-| 14 | Mon 11/19 | Databases | 4.3 | | | 
+| 14 | Mon 11/19 | :paperclip: Databases :heavy_check_mark: | 4.3 | | | 
 | 14 | Wed 11/21 | No Lecture: Thanksgiving | | Disc 12: Final Review | |
 | 14 | Fri 11/23 | No Lecture: Thanksgiving | | | |
-| 15 | Mon 11/26 | Natural Language | | Lab 13: Final Review | |
+| 15 | Mon 11/26 | Natural Language :heavy_check_mark: | | Lab 13: Final Review | |
 | 15 | Wed 11/28 | Final Examples | | | |
-| 15 | Fri 11/30 | Conclusion | | | HW 12 |
+| 15 | Fri 11/30 | Conclusion (No Video Available) | | | HW 12 |
 | 16 | Wed 12/12 | Final | | | |
