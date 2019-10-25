@@ -57,7 +57,7 @@ Legend:
 | 11 | Wed 10/31 | Tail Calls :heavy_check_mark: | 3.5 | Disc 09: Interpreters, Tail Recursion :heavy_check_mark: | Scheme Challenge Version |
 | 11 | Fri 11/2 | :bookmark: Macros | 3.5 | | HW 09 |
 | 12 | Mon 11/5 | :bookmark: Streams |  | Lab 11: Macros | |
-| 12 | Wed 11/7 | :paperclip: Declarative Programming :heavy_check_mark: | 4.3 | Disc 10: Macros, Streams | Scheme Contest |
+| 12 | Wed 11/7 | :paperclip: Declarative Programming :heavy_check_mark: | 4.3 | :bookmark: Disc 10: Macros, Streams | Scheme Contest |
 | 12 | Fri 11/9 | :paperclip: Tables :heavy_check_mark: | 4.3 | Exam Prep 07: Tail Recursion <br> Exam Prep 08: Macros <br> Guerrilla 06: Streams, Tail Recursion, Interpreters, Macros | HW 10 |
 | 13 | Mon 11/12 | No Lecture: Veterans Day | | Lab 12: SQL | |
 | 13 | Wed 11/14 | :paperclip: Aggregation :heavy_check_mark: | 4.3 | Disc 11: SQL | |
