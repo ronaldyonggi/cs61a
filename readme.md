@@ -26,17 +26,28 @@ Legend:
 <details>
   <summary> Week 1 Progress </summary>
   
-|  Week  |  Date  | Lecture | Textbook | Handout | Homework & Project|
-|  ---  |  ---  | ----- | ---- | ---- | ---- | 
-|   1   | Wed 8/22 |  Functions :heavy_check_mark:  |  1.1, 1.2 |  Lab 00: Getting Started :heavy_check_mark: | |
-|   1   | Fri 8/24 | Names :heavy_check_mark: |  1.3, 1.4  |  Disc 00: Getting Started :heavy_check_mark:  | HW 01 :heavy_check_mark: |
+|  Date  | Lecture | Textbook | Handout | Homework & Project|
+|  ---  | ----- | ---- | ---- | ---- | 
+| Wed 8/22 |  Functions :heavy_check_mark:  |  1.1, 1.2 |  Lab 00: Getting Started :heavy_check_mark: | |
+| Fri 8/24 | Names :heavy_check_mark: |  1.3, 1.4  |  Disc 00: Getting Started :heavy_check_mark:  | HW 01 :heavy_check_mark: |
 
 </details>
 
+## Week 2
+<details>
+  <summary> Week 2 Progress </summary>
+|  Date  | Lecture | Textbook | Handout | Homework & Project|
+|  ---  | ----- | ---- | ---- | ---- | 
+| Mon 8/27 | Control :heavy_check_mark: |  1.5  |  Lab 01: Variables & Functions, Control :heavy_check_mark:  | Hog :heavy_check_mark: |
+| Wed 8/29 | Higher-Order Functions :heavy_check_mark: |  1.6  |  Disc 01: Environment Diagrams, Control :heavy_check_mark: |  |
+| Fri 8/31 | Environments :heavy_check_mark:|  1.6  |  Guerrilla 01: Variables & Functions, Control, Environment Diagrams :heavy_check_mark: | HW 02 :heavy_check_mark: |
+  
+</details>
 
-|   2   | Mon 8/27 | Control :heavy_check_mark: |  1.5  |  Lab 01: Variables & Functions, Control :heavy_check_mark:  | Hog :heavy_check_mark: |
-|   2   | Wed 8/29 | Higher-Order Functions :heavy_check_mark: |  1.6  |  Disc 01: Environment Diagrams, Control :heavy_check_mark: |  |
-|   2   | Fri 8/31 | Environments :heavy_check_mark:|  1.6  |  Guerrilla 01: Variables & Functions, Control, Environment Diagrams :heavy_check_mark: | HW 02 :heavy_check_mark: |
+## Week 3
+
+<details>
+  <summary> Week 3 Progress </summary>
 |   3   | Mon 9/3 | Iteration :heavy_check_mark: |   |  Lab 02: Higher-Order Functions :heavy_check_mark: |  |
 |   3   | Wed 9/5 | Recursion :heavy_check_mark: |  1.7  |  Disc 02: Higher-Order Functions, Recursion :heavy_check_mark:  | Hog Contest |
 |   3   | Fri 9/7 | Function Examples :heavy_check_mark: |   |  Exam Prep 01: Environment Diagrams, Higher-Order Functions, Control :heavy_check_mark:  | HW 3 :heavy_check_mark: |
