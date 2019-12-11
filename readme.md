@@ -1,8 +1,8 @@
 # CS61A Fall 2018 Progress Tracker
 
-This repository contains the progress of UC Berkeley CS61A course materials that I have completed. Course materials are based on the [Fall 2018](https://cs61a.org/) course.
+This repository contains my progress of with UC Berkeley CS61A - Structure and Interpretation of Computer Programs. Course materials are based on the [Fall 2018](https://cs61a.org/) course.
 
-Lecture notes are written in .ipynb files, which can be opened via Jupyter Notebook or Jupyter Lab. Some lecture notes and materials requires installation of extensions:
+Lecture notes are written in .ipynb files, which can be opened via Jupyter Notebook or Jupyter Lab. Some lecture notes and materials requires installation of additional extensions.
 
 | Extension | Description |
 | --- | --- | 
@@ -21,11 +21,19 @@ Legend:
 |:bookmark: | Uses Calysto Scheme kernel|
 |:paperclip: | Uses sql magics |
 
+## Week 1
 
+<details>
+  <summary> Week 1 Progress </summary>
+  
 |  Week  |  Date  | Lecture | Textbook | Handout | Homework & Project|
 |  ---  |  ---  | ----- | ---- | ---- | ---- | 
 |   1   | Wed 8/22 |  Functions :heavy_check_mark:  |  1.1, 1.2 |  Lab 00: Getting Started :heavy_check_mark: | |
 |   1   | Fri 8/24 | Names :heavy_check_mark: |  1.3, 1.4  |  Disc 00: Getting Started :heavy_check_mark:  | HW 01 :heavy_check_mark: |
+
+</details>
+
+
 |   2   | Mon 8/27 | Control :heavy_check_mark: |  1.5  |  Lab 01: Variables & Functions, Control :heavy_check_mark:  | Hog :heavy_check_mark: |
 |   2   | Wed 8/29 | Higher-Order Functions :heavy_check_mark: |  1.6  |  Disc 01: Environment Diagrams, Control :heavy_check_mark: |  |
 |   2   | Fri 8/31 | Environments :heavy_check_mark:|  1.6  |  Guerrilla 01: Variables & Functions, Control, Environment Diagrams :heavy_check_mark: | HW 02 :heavy_check_mark: |
