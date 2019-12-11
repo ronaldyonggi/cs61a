@@ -36,6 +36,7 @@ Legend:
 ## Week 2
 <details>
   <summary> Week 2 Progress </summary>
+
 | Date     | Lecture                                   | Textbook | Handout                                                                               | Homework & Project       |
 | -------- | ----------------------------------------- | -------- | ------------------------------------------------------------------------------------- | ------------------------ |
 | Mon 8/27 | Control :heavy_check_mark:                | 1.5      | Lab 01: Variables & Functions, Control :heavy_check_mark:                             | Hog :heavy_check_mark:   |
@@ -55,7 +56,7 @@ Legend:
 | Wed 9/5 | Recursion :heavy_check_mark:         | 1.7      | Disc 02: Higher-Order Functions, Recursion :heavy_check_mark:                          | Hog Contest             |
 | Fri 9/7 | Function Examples :heavy_check_mark: |          | Exam Prep 01: Environment Diagrams, Higher-Order Functions, Control :heavy_check_mark: | HW 3 :heavy_check_mark: |
 
-<details>
+</details>
 
 ## Week 4
 
