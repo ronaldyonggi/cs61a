@@ -1,0 +1,36 @@
+##### Python
+__pycache__/
+*.pyc
+
+##### Jupyter
+.ipynb_checkpoints/
+
+##### Java
+*/.ipynb_checkpoints/*
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+##### IntelliJ
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+##### Racket
+*~
+\#*
+.#*
+.DS_Store
+*.bak
+TAGS
+*.swn
+*.swo
+*.swp
+.gdb_history
